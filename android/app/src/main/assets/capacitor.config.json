@@ -1,0 +1,6 @@
+{
+	"appId": "com.tum.hackyard",
+	"appName": "HackYard",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

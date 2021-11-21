@@ -1,0 +1,25 @@
+.wrapper{
+    --background: transparent;
+}
+
+.wrapper > ion-icon{
+    color: #fff;
+}
+
+.addButton{
+    position: absolute;
+    right: 2em;
+}
+
+.container{
+    padding: 4em 2em; 
+}
+
+.friendlyPlants{
+    position: absolute;
+    bottom: 0;
+}
+
+.plantImage{
+    padding-right: 1em;
+}

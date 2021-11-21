@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{name}}</ion-title>
+    <ion-back-button icon="chevron-back-outline" defaultHref="home" slot="start"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <p [innerHTML]="description" *ngIf="found">
+    </p>
+  </div>
+  <div *ngIf="!found" class="noRecords">
+    <div>
+      <img src="/assets/images/seed.png">
+      <p>Ohh no..., we could not find any records. <br /> Give us some time to grow.</p>
+    </div>
+  </div>
+</ion-content>

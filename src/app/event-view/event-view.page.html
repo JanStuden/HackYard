@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Tasks</ion-title>
+    <ion-back-button icon="chevron-back-outline" defaultHref="events" slot="start"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="id == '1'">
+    <ion-item><ion-checkbox></ion-checkbox>Cut apple tree</ion-item>
+    <ion-item><ion-checkbox></ion-checkbox>Cut pine tree</ion-item>
+    <ion-item><ion-checkbox></ion-checkbox>Cut lemon grass</ion-item>
+  </ion-list>
+  <ion-list *ngIf="id == '2'">
+    <ion-item><ion-checkbox></ion-checkbox>Water apple tree</ion-item>
+    <ion-item><ion-checkbox [checked]="true"></ion-checkbox>Water pine tree</ion-item>
+    <ion-item><ion-checkbox></ion-checkbox>Water lemon grass</ion-item>
+  </ion-list>
+  <p *ngIf="id == '2'" class="saveWater">Please mind, that you usually can see if plants need water. Only water them if necessary. Otherwise <b>save it.</b></p>
+</ion-content>

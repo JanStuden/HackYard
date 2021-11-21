@@ -1,0 +1,33 @@
+[
+    {
+      "plantID": 1,
+      "name": "Rose",
+      "genus": "Rose",
+      "light_condition": "Sunny",
+      "water_needed": 1.5,
+      "harvest": "None",
+      "trimming": "None",
+      "description" : "<h2>Growing Conditions</h2> Ideally, roses should be grown in sunny and open locations, with good air circulation at the base of the plant, in rich and well-draining soil. Some roses, notably the old ramblers and the modern hybrid musks, can tolerate some shade in any zone and may even prefer shade in the hottest zones. Roses require 1-2 inches of water a week to thrive. In dry climates, this water has to be supplied by the gardener, and although overhead watering was once discouraged, it is the logical choice. The water supplied by a gardener supplements rain, which falls from overhead. Overhead watering keeps the foliage and blooms clean, retards powdery mildew, and repels some pests. <h2>Ongoing care </h2> Apply a layer of compost under the shrub each spring, followed by a 2-inch layer of mulch to retain moisture and control weeds, keeping mulch a few inches away from the stems. Water plants during the summer if rainfall is less than 1 inch per week. Pruning techniques vary with the type of rose."
+    },
+    {
+      "plantID": 2,
+      "name": "Strawberry",
+      "genus": "rose plants",
+      "light_condition": "Sunny or partial shade",
+      "water_needed": 1,
+      "harvest": "Mai-Juli",
+      "trimming": "None",
+      "description" : "<h2>Ongoing care </h2> In spring of the first year, pick off blossoms to prevent fruiting and encourage production of healthy daughter plants. In late spring, train daughter plants to take root in a 9-by-9-inch spaced row system. In late fall, after a few freezes, mulch with 5 to 6 inches of straw or 4 to 5 inches of pine needles. During the second year, in late spring, remove the mulch gradually in spring, but protect blossoms from late frost with covers of mulch, if needed. Provide 1 inch of water per week while the fruit is developing, through harvest. Cover the patch with tobacco cloth or strawberry netting to keep birds out. After harvest, till the plants under, plant a cover crop, and prepare the bed for new plants next spring. <h2>Harvest</h2> The first berries are likely to ripen between four and six weeks from when blossoms open. Pick fruit by pinching the stem with your finger and thumb about a half-inch behind the berry. That way you remove the berry without bruising it."
+    },
+    {
+      "plantID": 3,
+      "name": "Pussy willow",
+      "genus": "willows",
+      "light_condition": "Sunny or partial shade",
+      "water_needed": 5,
+      "harvest": "None",
+      "trimming": "Once A Year",
+      "description" : "<h2>How to Grow</h2> Most willows need pruning for two reasons: to maintain a convenient size and to stimulate growth of long stems for cutting. Heavy pruning (all the way to the ground) also stimulates more vigorous growth, which results in larger catkins. However desirable for the above reasons, heavy annual pruning may also produce a somewhat rangy-looking plant. If your willow is positioned in a prominent location, so that appearance is important, prune out a third of the oldest wood each year. Older wood is more susceptible to disease and pest problems. Prune just before the leaves come out, in late winter or early spring. "
+    }
+]
+

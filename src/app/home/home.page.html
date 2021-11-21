@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-item class="wrapper" lines="none" href="/events">
+      <ion-icon name="notifications-outline" slot="end"></ion-icon>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <ion-row>
+      <h3>Frontyard</h3>
+      <ion-item href="/add-plant" class="addButton" lines="none">
+        <ion-icon name="add-outline"></ion-icon>
+      </ion-item>
+    </ion-row>
+    <ion-list *ngFor="let plant of plants | plant: 'Frontyard'">
+      <ion-item href="/plant-view/{{plant.name}}"><img src="/assets/images/flower.png" class="plantImage">{{plant.name}}
+      </ion-item>
+    </ion-list>
+    <ion-row>
+      <h3>Backyard</h3>
+    </ion-row>
+    <ion-list *ngFor="let plant of plants | plant: 'Backyard'">
+      <ion-item href="/plant-view/{{plant.name}}"><img src="/assets/images/flower.png" class="plantImage">{{plant.name}}
+      </ion-item>
+    </ion-list>
+    <ion-row>
+      <h3>Indoor</h3>
+    </ion-row>
+    <ion-list *ngFor="let plant of plants | plant: 'Indoor'">
+      <ion-item href="/plant-view/{{plant.name}}"><img src="/assets/images/flower.png" class="plantImage">{{plant.name}}
+      </ion-item>
+    </ion-list>
+    <div class="friendlyPlants">
+      Currently you have <b>{{beePlants}}</b> bee friendly flowers.
+      <ion-button href="/eco-guide">Make your garden eco friendly</ion-button>
+    </div>
+  </div>
+</ion-content>

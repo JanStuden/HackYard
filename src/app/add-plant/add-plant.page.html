@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Add a plant to your garden</ion-title>
+    <ion-back-button icon="chevron-back-outline" defaultHref="home" slot="start"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <form [formGroup]="plantForm" (ngSubmit)="addPlant()">
+      <ion-input placeholder="Name" formControlName="name" type="text"></ion-input>
+      <ion-input placeholder="Amount" formControlName="amount" type="number"></ion-input>
+      <ion-select placeholder="Place planted" formControlName="position">
+        <ion-select-option>Frontyard</ion-select-option>
+        <ion-select-option>Backyard</ion-select-option>
+        <ion-select-option>Indoor</ion-select-option>
+      </ion-select>
+      <ion-select placeholder="Shade at place" formControlName="light">
+        <ion-select-option>Sunny</ion-select-option>
+        <ion-select-option>Half-shade</ion-select-option>
+        <ion-select-option>Shade</ion-select-option>
+      </ion-select>
+      <ion-datetime displayFormat="MMMM YYYY" placeholder="Date planted" formControlName="age"></ion-datetime>
+      <ion-button type="submit">Save</ion-button>
+    </form>
+  </div>
+</ion-content>
